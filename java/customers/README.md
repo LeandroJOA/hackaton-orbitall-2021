@@ -12,7 +12,7 @@ e [Maven](https://maven.apache.org/) instalado. Depois basta clonar o projeto lo
 instalar as dependências e por fim, inicializar o projeto.
 
 ```sh
-git clone git@gitlab.com:leandrocapuano/hackaton-orbitall-2021.git
+git clone git@github.com:leandrocapuano/hackaton-orbitall-2021.git
 cd hackaton-orbitall-2021/java/customers
 npm install
 mvn clean install
