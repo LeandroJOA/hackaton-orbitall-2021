@@ -12,7 +12,7 @@ Antes de tudo, cheque se você tem [Node.js](http://nodejs.org/) instalado. Depo
 instalar as dependências e por fim, inicializar o projeto.
 
 ```sh
-git clone git@gitlab.com:leandrocapuano/hackaton-orbitall-2021.git
+git clone git@github.com:leandrocapuano/hackaton-orbitall-2021.git
 cd customers
 npm install
 node src/server.js
@@ -20,10 +20,8 @@ node src/server.js
 
 Sua aplicação deve ser executada como [localhost:3000](http://localhost:3000/).
 
-## PostMan
-Neste projeto contém um arquivo para você importar no [PostMan](https://www.getpostman.com/) e lá contém todos os
-recursos de customers para consumir-las, ela se encontra na pasta resources/postman, um exemplo de um consumo de
-como listar todas os customers cadastrado:
+## cURL
+Pode chamar as APIs via cURL, um exemplo de um consumo de como listar todos os customers cadastrados:
 
 ```console
 curl -X GET \
